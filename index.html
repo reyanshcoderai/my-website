@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Website</title>
+  <style>
+    body {
+      background-color: lightblue;
+      text-align: center;
+      font-family: Arial;
+    }
+    h1 {
+      color: darkblue;
+    }
+    button {
+      padding: 10px;
+      font-size: 16px;
+      background-color: blue;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Hello 👋</h1>
+
+  <p>
+    I am a 7th class student.<br>
+    This is my first website.
+  </p>
+
+  <button onclick="showText()">Click Me</button>
+
+  <p id="text"></p>
+
+  <script>
+    function showText() {
+      document.getElementById("text").innerHTML =
+      "🎉 You made a website! You are a coder!";
+    }
+  </script>
+
+</body>
+</html>
